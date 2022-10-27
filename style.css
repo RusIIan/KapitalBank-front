@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header ul li {
+  list-style: none;
+}
+header ul {
+  padding: 0;
+}
+header .head_logo {
+  margin-left: 50px;
+}
+header .header_menu_7 {
+  padding-left: 205px;
+}
+header .header_menu {
+  display: inline-flex;
+}
+header .header_menu_item {
+  text-decoration: none;
+  font-size: 14px;
+}
+header .header_menu_item_1 {
+  color: black;
+  font-weight: 600;
+}
+header .header_menu_item_2 {
+  color: rgb(87, 90, 91);
+}
+header .fa-location-dot {
+  padding-right: 5px;
+  color: rgb(244, 83, 105);
+}
+header .header_menu_item {
+  color: black;
+}
+header .header_navbar_body {
+  margin-left: 157px;
+}
+header .header_navbar_items {
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+}
+header .head_menu:hover {
+  border-bottom: 1px solid red;
+}
+header .header_navbar_link {
+  text-decoration: none;
+}
+header .header_navbar {
+  background-color: rgb(232, 236, 241);
+  height: 60px;
+  padding-top: 17px;
+}
+header button {
+  border-radius: 5px;
+  color: red;
+  border: 1px solid rgb(244, 83, 105);
+  background-color: white;
+}
+header .con-back-color {
+  background-color: rgb(232, 236, 241);
+}
+header .btn_head {
+  padding: 2px 5px 2px 6px;
+}
+
+main button {
+  background-color: rgb(244, 83, 105);
+  color: white;
+  padding: 15px 110px 15px 110px;
+  border-radius: 10px;
+  border: transparent;
+}
+main button span {
+  font-size: 18px;
+}
+main .main-img {
+  position: relative;
+}
+main .main_photos {
+  height: 290px;
+  position: absolute;
+  top: 35px;
+  left: 115px;
+}
+main .con-back-color {
+  background-color: rgb(232, 236, 241);
+}
+main .slider {
+  margin-top: 3px;
+  height: 430px;
+  background-color: rgb(232, 236, 241);
+}
+main .lotoreya_body {
+  padding-top: 100px;
+  margin-left: 50px;
+}
+main .lot {
+  font-size: 36px;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+}
+main .cart {
+  margin-top: -80px;
+  position: relative;
+  z-index: 1;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+main .cart_body {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+main .carts_item {
+  width: 205px;
+  box-shadow: 0 4px 12px hsla(0deg, 0%, 80%, 0.45);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 24px;
+  text-align: center;
+  display: block;
+  transition: 0.3s;
+  text-decoration: none;
+}
+main .carts_item:hover {
+  margin: 10px;
+}
+main .carts__image {
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+}
+main .carts__image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+main .carts_title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #2e3131;
+  margin-bottom: 0;
+}
+main .fa-solid {
+  color: rgb(244, 83, 105);
+  font-size: 42px;
+}
+main .birbank_cart {
+  background-color: hsl(210deg, 20%, 98%);
+  margin-top: 5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+main .birbank_cart p {
+  display: inline-block;
+  width: 42%;
+}
+main .backgraund-color {
+  background-color: rgb(232, 236, 241);
+  height: 200px;
+  padding: 15px;
+  position: relative;
+}
+main .cart_conteiner {
+  margin-left: 140px;
+  margin-right: 150px;
+}
+main ul {
+  max-width: 55%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-left: 0;
+}
+main li {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 600;
+}
+main .cart_item {
+  display: block;
+  color: #f45369;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+main .btn_cart {
+  width: 280px;
+  background-color: #f45369;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 11px 20px 14px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+main .btn_cart:hover {
+  background-color: #ff4343;
+  transition: 0.1s;
+}
+main .cart_img {
+  width: 22%;
+  position: absolute;
+  top: -142px;
+  right: 296px;
+}
+main .gundelik_telebat {
+  margin-left: 33%;
+  padding: 55px 0 25px 20px;
+}
+main #container_gundelik {
+  position: relative;
+}
+main .color_back {
+  background-color: rgb(232, 236, 241);
+}
+main .money_cart img {
+  height: 380px;
+}
+main .money_cart {
+  position: absolute;
+  top: 0;
+  margin-left: -30px;
+}
+main .cart_item_a {
+  display: block;
+  color: #f45369;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+main .cart_item_area {
+  max-width: 55%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-left: 445px;
+  padding-top: 50px;
+}
+main .cart_item_area_2 {
+  max-width: 55%;
+  margin-bottom: 24px;
+  margin-left: 68%;
+}
+main .btn_cart_2 {
+  width: 280px;
+  background-color: #f45369;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 11px 20px 14px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+main .btn_cart_2:hover {
+  background-color: #ff4343;
+  transition: 0.1s;
+}/*# sourceMappingURL=style.css.map */

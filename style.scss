@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin size {
+  font-size: 14px;
+}
+@mixin backgraund_color{
+ background-color:rgb(232,236,241);
+}
+@mixin margin-left-right {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+header{
+    ul li{
+      list-style: none;
+    }
+    ul{
+      padding: 0;
+    }
+    //Kapital_logosu ve onun xidmetler
+    .head_logo{
+      margin-left: 50px;
+    }
+    .header_menu_7{
+      padding-left: 205px;
+    }
+    .header_menu{
+        display: inline-flex;
+      }
+      .header_menu_item{
+        text-decoration: none;
+        @include size();
+      }
+      .header_menu_item_1{
+        color: black;
+        font-weight: 600;
+      }
+      .header_menu_item_2{
+        color:rgb(87,90,91);
+      }
+      .fa-location-dot{
+        padding-right: 5px;
+        color: rgb(244,83,105);
+      }
+      .header_menu_item{
+        color: black;
+      }
+      .header_navbar_body{
+        margin-left: 157px;
+      }
+      .header_navbar_items{
+        font-size: 14px;
+        letter-spacing: -0.2px;
+        font-family: 'Noto Sans Ethiopic', sans-serif;
+      }
+      .header_navbar_link{
+        text-decoration: none;
+      }
+      .header_navbar{
+        background-color: rgb(232,236,241);
+        height: 60px;
+        padding-top: 17px;
+      }
+      
+      button{
+        border-radius: 5px;
+        color: red;
+        border: 1px solid rgb(244,83,105);
+        background-color: white;
+      }
+      .con-back-color{
+        @include backgraund_color();
+      }
+      .btn_head{
+        padding: 2px 5px 2px 6px; 
+      }
+}
+main{
+  
+  button{
+    background-color: rgb(244,83,105);
+    color: white;
+    padding: 15px 110px 15px 110px;
+    border-radius: 10px;
+    border: transparent;
+    span{
+      font-size: 18px 
+    }
+  }
+  .main-img{
+    position: relative;
+  }
+  .main_photos{
+    height: 290px;
+    position: absolute;
+    top: 35px;
+    left: 115px;
+
+  }
+  .con-back-color{
+    @include backgraund_color();
+  }
+  .slider{
+    margin-top:3px;
+    height: 430px;
+    @include backgraund_color();
+  }
+  .lotoreya_body{
+    padding-top: 100px;
+    margin-left: 50px;
+  }
+  .lot{
+    font-size: 36px;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+  }
+  .cart{
+    margin-top: -80px;
+    position: relative;
+    z-index: 1;
+    @include margin-left-right();
+
+  }
+  .cart_body{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    background: #f9fafb;
+    border-radius: 8px;
+    
+  }
+  .carts_item{
+    width: 205px;
+    box-shadow: 0 4px 12px hsl(0deg 0% 80% / 45%);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 24px;
+    text-align: center;
+    display: block;
+    transition: .3s;
+    text-decoration: none;
+    &:hover{
+      margin: 10px;
+    }
+  }
+  .carts__image{
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+  }
+  .carts__image img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .carts_title{
+    font-weight: 400;
+    font-size: 17px;
+    color: #2e3131;
+    margin-bottom: 0;
+  }
+  .fa-solid{
+    color:rgb(244,83,105);
+    font-size: 42px;
+  }
+  .birbank_cart{
+    background-color: hsl(210, 20%, 98%);
+    margin-top: 5px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .birbank_cart p{
+   display: inline-block;
+   width: 42%;
+  }
+  .backgraund-color{
+    @include backgraund_color();
+    height: 200px;
+    padding: 15px;
+    position: relative;
+  }
+  .cart_conteiner{
+    margin-left: 140px;
+    margin-right: 150px;
+  }
+  ul{
+    max-width: 55%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-left: 0;
+  }
+  li{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .cart_item{
+    display: block;
+    color: #f45369;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .btn_cart{
+    width: 280px;
+    background-color: #f45369;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 11px 20px 14px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    &:hover{
+      background-color: #ff4343;
+      transition: .1s;
+    }
+  }
+  .cart_img{
+    width: 22%;
+    position: absolute;
+    top: -142px;
+    right: 296px;
+    }
+    .gundelik_telebat{
+      margin-left: 33%;
+      padding: 55px 0 25px 20px;
+    }
+    #container_gundelik{
+      position: relative;
+    }
+    .color_back{
+      @include backgraund_color();
+    }
+    .money_cart img{
+      height: 380px;
+    }
+    .money_cart{
+      position: absolute;
+      top: 0;
+      margin-left: -30px;
+    }
+    .cart_item_a{
+      display: block;
+      color: #f45369;
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+     .cart_item_area{
+      max-width: 55%;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      margin-left: 445px;
+      padding-top: 50px;
+     }
+     .cart_item_area_2{
+      max-width: 55%;
+     margin-bottom: 24px;
+     margin-left: 68%;
+     }
+     .btn_cart_2{
+      width: 280px;
+      background-color: #f45369;
+      border-radius: 8px;
+      display: inline-block;
+      padding: 11px 20px 14px;
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      &:hover{
+      background-color: #ff4343;
+      transition: .1s;
+    }
+     }
+
+  }
