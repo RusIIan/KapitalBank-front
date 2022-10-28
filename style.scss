@@ -13,6 +13,17 @@
   margin-left: 150px;
   margin-right: 150px;
 }
+p{
+  margin: 0;
+}
+h1 h2 h3 h4 h5 h6{
+    padding: 0;
+}
+.link{
+  &:hover{
+    border-bottom: 5px solid red;
+  }
+}
 header{
     ul li{
       list-style: none;
@@ -65,31 +76,19 @@ header{
         padding-top: 17px;
       }
       
-      button{
-        border-radius: 5px;
-        color: red;
-        border: 1px solid rgb(244,83,105);
-        background-color: white;
-      }
       .con-back-color{
         @include backgraund_color();
       }
       .btn_head{
         padding: 2px 5px 2px 6px; 
+        border-radius: 5px;
+        color: red;
+        border: 1px solid rgb(244,83,105);
+        background-color: white;
       }
 }
 main{
   
-  button{
-    background-color: rgb(244,83,105);
-    color: white;
-    padding: 15px 110px 15px 110px;
-    border-radius: 10px;
-    border: transparent;
-    span{
-      font-size: 18px 
-    }
-  }
   .main-img{
     position: relative;
   }
@@ -142,10 +141,10 @@ main{
     padding: 24px;
     text-align: center;
     display: block;
-    transition: .3s;
+    transition: .5s;
     text-decoration: none;
     &:hover{
-      margin: 10px;
+      margin: 25px;
     }
   }
   .carts__image{
@@ -271,6 +270,7 @@ main{
      }
      .btn_cart_2{
       width: 280px;
+      width: 280px;
       background-color: #f45369;
       border-radius: 8px;
       display: inline-block;
@@ -284,5 +284,105 @@ main{
       transition: .1s;
     }
      }
+     #kalkulator{
+      margin-left: 75px;
+     }
+     #kalkulator h2{
+      margin-top: 35px;
+     }
+     .kalkulator_body{
+      display: inline-block ;
+     }
+     .kalkulator_btn{
+      margin: 15px 15px 25px 0;
+      padding:5px 15px 5px 15px;
+      border-radius: 15px;
+      border: transparent;
+     }
+     .kalkulator_text{
+      padding-right: 40%;
+     }
+     .kalkulator_body_text{
+      margin-left: 1%;
+      margin-top: 25px;
+      line-height: 2;
+      display: inline;
+     }
+     .nagd{
+      width: 355px;
+      height: 265px;
+      padding: 35px;
+      display: block;
+      text-align: center;
+      margin-top: 15%;
+      background-color: #f9fafb;
+      border-radius: 8px;
+      border: transparent;
+     }
+     .nagd_text{
+      font-size: 25px;
+      margin-bottom: 25px;
 
+     }
+     .btn_nagd{
+      background-color: #f45369;
+      color: #fff;
+      width: 280px;
+      border-radius: 8px;
+      display: inline-block;
+      padding: 6px;
+      font-size: 24px;
+      border: transparent;
+      margin-top: 25px;
+     }
+     .kalkulator_colom{
+       position: relative;
+      width: 80%;
+      height: 60px;
+      border-radius: 5px;
+      border: 1px solid #9a9a9a;
+     }
+     .kalkulator_range_btn{
+      width: 44.7%;
+      margin-left: 152px;
+      height: 1px;
+      position: absolute;
+      left: 0px;
+      top: 115.2rem;
+     } 
+     .kalkulator_range_btn1{
+      width: 44.7%;
+      margin-left: 153px;
+      height: 1px;
+      position: absolute;
+      left: 0px;
+      top: 122.4rem;
+     } 
+     .kalkulator_range_btn2{
+      width: 44.7%;
+      margin-left: 152px;
+      height: 1px;
+      position: absolute;
+      left: 0px;
+      top: 129.7rem;
+     }
+     .kalkulator_qiymet{
+      font-size: 45px;
+      font-weight: 900;
+      color:#f45369;
+     }
+     .kalkulatov_meblex_colom{
+      margin-bottom: 35px;
+     }
+     .kalkulator_meblex_faiz_ay{
+      font-size: 14px;
+      font-weight: 100;
+     }
+    //  .online_insan{
+    //    display: inline-block;
+    //  }
+    //  .online_insan_text{
+    //   width: 44%;
+    //   font-size: 14px;
+    //  }
   }

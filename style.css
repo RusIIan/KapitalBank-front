@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+p {
+  margin: 0;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  padding: 0;
+}
+
+.link:hover {
+  border-bottom: 5px solid red;
+}
+
 header ul li {
   list-style: none;
 }
@@ -45,9 +57,6 @@ header .header_navbar_items {
   letter-spacing: -0.2px;
   font-family: "Noto Sans Ethiopic", sans-serif;
 }
-header .head_menu:hover {
-  border-bottom: 1px solid red;
-}
 header .header_navbar_link {
   text-decoration: none;
 }
@@ -56,29 +65,17 @@ header .header_navbar {
   height: 60px;
   padding-top: 17px;
 }
-header button {
-  border-radius: 5px;
-  color: red;
-  border: 1px solid rgb(244, 83, 105);
-  background-color: white;
-}
 header .con-back-color {
   background-color: rgb(232, 236, 241);
 }
 header .btn_head {
   padding: 2px 5px 2px 6px;
+  border-radius: 5px;
+  color: red;
+  border: 1px solid rgb(244, 83, 105);
+  background-color: white;
 }
 
-main button {
-  background-color: rgb(244, 83, 105);
-  color: white;
-  padding: 15px 110px 15px 110px;
-  border-radius: 10px;
-  border: transparent;
-}
-main button span {
-  font-size: 18px;
-}
 main .main-img {
   position: relative;
 }
@@ -129,11 +126,11 @@ main .carts_item {
   padding: 24px;
   text-align: center;
   display: block;
-  transition: 0.3s;
+  transition: 0.5s;
   text-decoration: none;
 }
 main .carts_item:hover {
-  margin: 10px;
+  margin: 25px;
 }
 main .carts__image {
   margin: 0 auto 24px;
@@ -258,6 +255,7 @@ main .cart_item_area_2 {
 }
 main .btn_cart_2 {
   width: 280px;
+  width: 280px;
   background-color: #f45369;
   border-radius: 8px;
   display: inline-block;
@@ -270,4 +268,97 @@ main .btn_cart_2 {
 main .btn_cart_2:hover {
   background-color: #ff4343;
   transition: 0.1s;
+}
+main #kalkulator {
+  margin-left: 75px;
+}
+main #kalkulator h2 {
+  margin-top: 35px;
+}
+main .kalkulator_body {
+  display: inline-block;
+}
+main .kalkulator_btn {
+  margin: 15px 15px 25px 0;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  border: transparent;
+}
+main .kalkulator_text {
+  padding-right: 40%;
+}
+main .kalkulator_body_text {
+  margin-left: 1%;
+  margin-top: 25px;
+  line-height: 2;
+  display: inline;
+}
+main .nagd {
+  width: 355px;
+  height: 265px;
+  padding: 35px;
+  display: block;
+  text-align: center;
+  margin-top: 15%;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  border: transparent;
+}
+main .nagd_text {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+main .btn_nagd {
+  background-color: #f45369;
+  color: #fff;
+  width: 280px;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 6px;
+  font-size: 24px;
+  border: transparent;
+  margin-top: 25px;
+}
+main .kalkulator_colom {
+  position: relative;
+  width: 80%;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #9a9a9a;
+}
+main .kalkulator_range_btn {
+  width: 44.7%;
+  margin-left: 152px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  top: 115.2rem;
+}
+main .kalkulator_range_btn1 {
+  width: 44.7%;
+  margin-left: 153px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  top: 122.4rem;
+}
+main .kalkulator_range_btn2 {
+  width: 44.7%;
+  margin-left: 152px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  top: 129.7rem;
+}
+main .kalkulator_qiymet {
+  font-size: 45px;
+  font-weight: 900;
+  color: #f45369;
+}
+main .kalkulatov_meblex_colom {
+  margin-bottom: 35px;
+}
+main .kalkulator_meblex_faiz_ay {
+  font-size: 14px;
+  font-weight: 100;
 }/*# sourceMappingURL=style.css.map */
